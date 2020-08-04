@@ -1,0 +1,25 @@
+body {
+	background-color: ghostwhite;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	border: 2px solid;
+	width: 140px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+button:hover {
+	color: #fff;
+	background-color: #000;
+	transition: 1s;
+}
